@@ -1,0 +1,13 @@
+prefix=D:/KrishNaik/Topics/venv/Library
+exec_prefix=D:/KrishNaik/Topics/venv/Library
+libdir=D:/KrishNaik/Topics/venv/Library/lib
+sharedlibdir=D:/KrishNaik/Topics/venv/Library/lib
+includedir=D:/KrishNaik/Topics/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
